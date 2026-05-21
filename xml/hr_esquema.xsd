@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+
+  <!-- Elemento raiz -->
+  <xs:element name="empleados">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="empleado" type="tipoEmpleado"
+                    minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- Tipo complejo: empleado -->
+  <xs:complexType name="tipoEmpleado">
+    <xs:sequence>
+      <xs:element name="nombre"              type="xs:string"/>
+      <xs:element name="apellido"            type="xs:string"/>
+      <xs:element name="email"               type="xs:string"/>
+      <xs:element name="telefono"            type="xs:string"/>
+      <xs:element name="fecha_contratacion"  type="xs:date"/>
+      <xs:element name="salario"             type="tipoSalario"/>
+      <xs:element name="departamento"        type="tipoDepartamento"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
+  </xs:complexType>
+
+  <!-- Tipo restringido para salario: minimo 1000, maximo 40000 -->
+  <xs:simpleType name="tipoSalario">
+    <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="1000"/>
+      <xs:maxInclusive value="40000"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Tipo complejo: departamento -->
+  <xs:complexType name="tipoDepartamento">
+    <xs:sequence>
+      <xs:element name="nombre_departamento" type="xs:string"/>
+      <xs:element name="ciudad"              type="xs:string"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
+  </xs:complexType>
+
+</xs:schema>

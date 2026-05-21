@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empleados xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="hr_esquema.xsd">
+
+  <empleado id="100">
+    <nombre>Steven</nombre>
+    <apellido>King</apellido>
+    <email>SKING</email>
+    <telefono>515.123.4567</telefono>
+    <fecha_contratacion>2003-06-17</fecha_contratacion>
+    <salario>24000</salario>
+    <departamento id="90">
+      <nombre_departamento>Executive</nombre_departamento>
+      <ciudad>Seattle</ciudad>
+    </departamento>
+  </empleado>
+
+  <empleado id="101">
+    <nombre>Neena</nombre>
+    <apellido>Kochar</apellido>
+    <email>NKOCHAR</email>
+    <telefono>515.123.4568</telefono>
+    <fecha_contratacion>2005-09-21</fecha_contratacion>
+    <salario>17000</salario>
+    <departamento id="90">
+      <nombre_departamento>Executive</nombre_departamento>
+      <ciudad>Seattle</ciudad>
+    </departamento>
+  </empleado>
+
+  <empleado id="102">
+    <nombre>Lex</nombre>
+    <apellido>De Haan</apellido>
+    <email>LDEHAAN</email>
+    <telefono>515.123.4569</telefono>
+    <fecha_contratacion>2001-01-13</fecha_contratacion>
+    <salario>17000</salario>
+    <departamento id="90">
+      <nombre_departamento>Executive</nombre_departamento>
+      <ciudad>Seattle</ciudad>
+    </departamento>
+  </empleado>
+
+  <empleado id="103">
+    <nombre>Alexander</nombre>
+    <apellido>Hunold</apellido>
+    <email>AHUNOLD</email>
+    <telefono>590.423.4567</telefono>
+    <fecha_contratacion>2006-01-03</fecha_contratacion>
+    <salario>9000</salario>
+    <departamento id="60">
+      <nombre_departamento>IT</nombre_departamento>
+      <ciudad>Southlake</ciudad>
+    </departamento>
+  </empleado>
+
+  <empleado id="107">
+    <nombre>Diana</nombre>
+    <apellido>Lorentz</apellido>
+    <email>DLORENTZ</email>
+    <telefono>590.423.5567</telefono>
+    <fecha_contratacion>2007-02-07</fecha_contratacion>
+    <salario>4200</salario>
+    <departamento id="60">
+      <nombre_departamento>IT</nombre_departamento>
+      <ciudad>Southlake</ciudad>
+    </departamento>
+  </empleado>
+
+  <empleado id="114">
+    <nombre>Den</nombre>
+    <apellido>Raphaely</apellido>
+    <email>DRAPHEAL</email>
+    <telefono>515.127.4561</telefono>
+    <fecha_contratacion>2002-12-07</fecha_contratacion>
+    <salario>11000</salario>
+    <departamento id="30">
+      <nombre_departamento>Purchasing</nombre_departamento>
+      <ciudad>Seattle</ciudad>
+    </departamento>
+  </empleado>
+
+  <empleado id="120">
+    <nombre>Matthew</nombre>
+    <apellido>Weiss</apellido>
+    <email>MWEISS</email>
+    <telefono>650.123.1234</telefono>
+    <fecha_contratacion>2004-07-18</fecha_contratacion>
+    <salario>8000</salario>
+    <departamento id="50">
+      <nombre_departamento>Shipping</nombre_departamento>
+      <ciudad>South San Francisco</ciudad>
+    </departamento>
+  </empleado>
+
+  <empleado id="145">
+    <nombre>John</nombre>
+    <apellido>Russell</apellido>
+    <email>JRUSSEL</email>
+    <telefono>011.44.1344.429268</telefono>
+    <fecha_contratacion>2004-10-01</fecha_contratacion>
+    <salario>14000</salario>
+    <departamento id="80">
+      <nombre_departamento>Sales</nombre_departamento>
+      <ciudad>Oxford</ciudad>
+    </departamento>
+  </empleado>
+
+  <empleado id="201">
+    <nombre>Michael</nombre>
+    <apellido>Hartstein</apellido>
+    <email>MHARTSTE</email>
+    <telefono>515.123.5555</telefono>
+    <fecha_contratacion>2004-02-17</fecha_contratacion>
+    <salario>13000</salario>
+    <departamento id="20">
+      <nombre_departamento>Marketing</nombre_departamento>
+      <ciudad>Toronto</ciudad>
+    </departamento>
+  </empleado>
+
+  <empleado id="205">
+    <nombre>Shelley</nombre>
+    <apellido>Higgins</apellido>
+    <email>SHIGGINS</email>
+    <telefono>515.123.8080</telefono>
+    <fecha_contratacion>2002-06-07</fecha_contratacion>
+    <salario>12008</salario>
+    <departamento id="110">
+      <nombre_departamento>Accounting</nombre_departamento>
+      <ciudad>Seattle</ciudad>
+    </departamento>
+  </empleado>
+
+</empleados>
